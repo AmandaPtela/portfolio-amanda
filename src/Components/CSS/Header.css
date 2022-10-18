@@ -1,9 +1,11 @@
 #cabecalho {
   background-color: black;
   display: flex;
+  flex-direction: column;
   animation: transition 2s 1;
   justify-content: space-around;
-  height: 94vh;
+  height: 70vh;
+  align-items: center;
   width: 60%;
 }
 
@@ -46,72 +48,28 @@ hr {
    color: #b4c0bb;
    margin: 0;
 }
-/* #setas{
-   display: flex;
-   justify-content: space-around;
-   z-index: inherit;       
-   animation-duration: 1s;
-   animation-delay: 1s;
-   animation-name: setinhas;
-   animation-iteration-count: infinite;
-   animation-direction: alternate-reverse;
-}
-@keyframes setinhas {
-   from{
-       margin-top: 1%;
-   }
-   to {
-       margin-bottom: 1%;
-   }    
-}
 
-nav{
+#menu {
   display: flex;
-  justify-content: space-around;
+  text-align: center;
   align-items: center;
-  height: 65px;
-  position: sticky;
-  top:0;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 12%;
   width: 100%;
 }
 
-.sobre:hover{
-  font-size: 30px;
-  background-color: #fffffffd;
-  color:rgb(53, 52, 50);
-  border-radius: 1em;
-  transition: 0.2s;
-}
-.habi:hover{
-  font-size: 30px;
-  background-color: #fffffffd;
-  color:rgb(53, 52, 50);
-  border-radius: 1em;
-  transition: 0.2s;
-}
-.contato:hover{
-  font-size: 30px;
-  background-color: #fffffffd;
-  color:rgb(53, 52, 50);
-  border-radius: 1em;
-  transition: 0.2s;
-}
-
-.inicio:hover {
-  font-size: 30px;
-  background-color: #fffffffd;
-  color:rgb(53, 52, 50);
-  border-radius: 1em;
-  transition: 0.2s;
-}
-
-.sobre, .habi, .contato, .inicio {
-  font-family: 'Poppins', sans-serif;
+.links-nav {
+  color: #b4c0bb;
   text-decoration: none;
-  font-weight: 300;
-  font-size: 25px;
-  color: rgba(255, 255, 254, 0.753);
-  padding: 3px;
-  width: 300px;
-  text-align: center;
-} */
+  width: 160px;
+}
+
+.links-nav:hover {
+  color: #b4c0bb;
+  text-decoration: none;
+  background-color: #477964;
+  border-radius: 1cm;
+  width: 160px;
+  transform: scale(1.1);
+}
