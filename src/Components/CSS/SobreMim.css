@@ -2,29 +2,44 @@
   background-color: #000000;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
-  padding-left: 30px;
+  padding: 20px;
+  height: 80vh;
   width: 90%;
+  border: solid 0.1ch rgba(119, 107, 107, 0.527);
+  border-radius: 1ch;
+}
+
+#space-photo {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-top: 10px;
 }
 #foto{
-  height: 250px;
-  width: 235px;
+  height: 200px;
+  width: 185px;
   border-radius: 100%;
   margin-bottom: 10px;
 }
 
+.texto-sobre {
+  padding: 0 0 0 10px;
+  color: #d6d1d1d3;
+}
+
 #sobre-text {
   width: 100%;
-  color: #a1aaa6;
   font-size: 20px;
   font-weight: 400;
-  text-align: center;
 }
 
 #sobre-title {
   font-weight: 400;
   font-size: 30px;
   margin: 0px;
-  color:#b4c0bb;
+  /* color:#b4c0bb; */
 }
