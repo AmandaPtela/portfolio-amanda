@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './CSS/Header.css';
 
 
@@ -13,6 +14,10 @@ class Cabecalho extends React.Component {
             <hr/>
             <h2 id="header-sub">Meu nome é Amanda Karoline</h2>
           </div>
+          <nav id="menu">
+            <Link to="/Projetos" className="links-nav">Projetos</Link>
+            <Link className="links-nav">Contato</Link>
+          </nav>
         </header>
       </>
     )
