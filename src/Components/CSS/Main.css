@@ -3,32 +3,3 @@
   display: flex;
   flex-direction: column;
 }
-
-#all {
-  padding-top: 10px;
-}
-
-#menu {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 20px;
-  height: 12%;
-  width: 100%;
-}
-
-.links-nav {
-  color: #b4c0bb;
-  text-decoration: none;
-  width: 160px;
-}
-
-.links-nav:hover {
-  color: #b4c0bb;
-  text-decoration: none;
-  background-color: #477964;
-  border-radius: 1cm;
-  width: 160px;
-  transform: scale(1.1);
-}
