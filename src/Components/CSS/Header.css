@@ -7,6 +7,8 @@
   height: 70vh;
   align-items: center;
   width: 60%;
+  border-radius: 1ch;
+  box-shadow: 3px 3px #f7f7f7;
 }
 
 hr {
@@ -63,13 +65,21 @@ hr {
   color: #b4c0bb;
   text-decoration: none;
   width: 160px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .links-nav:hover {
+  display: flex;
   color: #b4c0bb;
   text-decoration: none;
-  background-color: #477964;
+  background-color: #5f0979;
   border-radius: 1cm;
   width: 160px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
   transform: scale(1.1);
 }

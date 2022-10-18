@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   width: 35%;
-  border-left: solid 0.1cm rgba(255, 255, 255, 0.747);
+  
   padding-left: 15px;
 }
