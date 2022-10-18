@@ -1,0 +1,66 @@
+.geralzao-projetos {
+  padding: 0 30px 30px 0;
+  width: 100vw;
+  height: 95.5vh;
+}
+
+#menu-proj {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 24px;
+  height: 10%;
+  width: 100%;
+}
+
+.links-nav-proj {
+  color: #b4c0bb;
+  text-decoration: none;
+  width: 180px;
+}
+
+.links-nav-proj:hover {
+  color: #dce4e1;
+  text-decoration: none;
+  background-color: #18704b;
+  border-radius: 1cm;
+  width: 180px;
+  transform: scale(1.1);
+}
+
+.geral-projetos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#slide-projeto {
+  width: 100%;
+  display: flex;
+  color: wheat;
+  flex-direction: column;
+  align-items: center;
+}
+
+#area-projetos {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 10px;
+  height: 80vh;
+}
+
+.projeto {
+  color: white;
+  width: 40%;
+}
+
+.proj-img {
+  height: 180px;
+  width: 200px;
+}
