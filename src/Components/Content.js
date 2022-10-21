@@ -1,13 +1,13 @@
 import React from "react";
 import './CSS/Content.css';
-import SobreMim from "./SobreMim";
+import Projetos from "./Projetos";
 
 class Content extends React.Component {
 
   render() {
     return (
       <div className="conteudo">
-        <SobreMim />
+        <Projetos />
       </div>
     )
   }

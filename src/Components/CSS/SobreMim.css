@@ -5,8 +5,8 @@
   align-items: left;
   justify-content: space-around;
   padding: 20px;
-  height: 80vh;
-  width: 90%;
+  height: 85%;
+  width: 35%;
   border: solid 0.1ch rgba(119, 107, 107, 0.527);
   border-radius: 1ch;
   box-shadow: 3px 3px #f7f7f7;
@@ -30,17 +30,50 @@
 .texto-sobre {
   padding: 0 0 0 10px;
   color: #d6d1d1d3;
+  text-align: center;
 }
 
 #sobre-text {
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
-#sobre-title {
+#sobre-text::first-line {
+  font-size: 35px;
   font-weight: 400;
-  font-size: 30px;
-  margin: 0px;
-  color:#f7f7f7de
+  color: #d6d1d1f1;
 }
+
+#menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 12%;
+  width: 100%;
+}
+
+.links-nav {
+  color: #b4c0bb;
+  text-decoration: none;
+  width: 160px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.links-nav:hover {
+  display: flex;
+  color: #b4c0bb;
+  text-decoration: none;
+  background-color: #5f0979;
+  border-radius: 1cm;
+  width: 160px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.1);
+} 

@@ -1,7 +1,5 @@
 .conteudo {
   display: flex;
   flex-direction: column;
-  width: 35%;
-  
-  padding-left: 15px;
+  width: fit-content;
 }
