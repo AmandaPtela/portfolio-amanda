@@ -35,17 +35,6 @@
   border-radius: 1ch;
 }
 
-#slide-projeto {
-  width: 100%;
-  display: flex;
-  color: wheat;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 1ch;
-  margin-bottom: 10px;
-}
-
 #area-projetos {
   width: 60%;
   display: flex;
