@@ -30,7 +30,6 @@ export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            {title}
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             <img src={img} alt={title}/>
