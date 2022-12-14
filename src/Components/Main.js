@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './Header';
-import Content from './Content';
+import Projetos from './Projetos';
 import './CSS/Main.css';
 import SobreMim from './SobreMim';
+import Habilidades from './Habilidades';
 
 class Main extends React.Component {
   render() {
@@ -13,7 +14,8 @@ class Main extends React.Component {
         </div>
         <div id="conteudo">
           <SobreMim />
-          <Content />
+          <Habilidades />
+          <Projetos />
         </div>
       </div>
     );

@@ -9,7 +9,7 @@ class Habilidades extends React.Component {
           <p id="habi-ti"> Habilidades </p>
           <p id="habi-texto">
             <strong>Git, HTML, CSS, JavaScript, Jest</strong><br />
-            <strong>React, Redux, Context API</strong><br />
+            <strong>React, Redux, React Hooks</strong><br />
             <strong>React Testing Library</strong><br />
           </p>
         </section>

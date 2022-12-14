@@ -8,9 +8,9 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 600,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
+  bgcolor: 'black',
+  color: 'white',
+  boxShadow: '2px 2px white',
   p: 4,
 };
 
@@ -29,6 +29,7 @@ export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
+          <div id="btn-close-area"><button id='btn-close' type='button' onClick={handleClose}>X</button></div>
           <Typography id="modal-modal-title" variant="h6" component="h2">
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>

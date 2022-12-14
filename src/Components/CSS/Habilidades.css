@@ -1,10 +1,12 @@
-#habi-texto {
-  width: fit-content;
-  color: #a1aaa6;
-  list-style: none;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: left;
+#habilidades{
+  margin-top: 20px;
+  background-color: #000000;
+  box-shadow: 3px 3px #f7f7f7;
+  border-radius: 1ch;
+  justify-content: center;
+  padding: 20px;
+  width: 90%;
+  text-align: center;
 }
 
 #habi-ti {
@@ -14,9 +16,17 @@
   color:#b4c0bb;
 }
 
-#habilidades{
-  background-color: #000000;
-  align-items: center;
-  padding: 20px;
-  width: 87%;
-} 
+#habi-texto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #a1aaa6;
+  height: 20%;
+  font-size: 20px;
+}
+
+.icons {
+  margin: 5px;
+}
+
+
