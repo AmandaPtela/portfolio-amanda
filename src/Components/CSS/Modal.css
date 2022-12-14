@@ -1,0 +1,8 @@
+#links-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: blue;
+}

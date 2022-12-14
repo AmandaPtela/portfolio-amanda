@@ -7,7 +7,7 @@
 #conteudo {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: fit-content;
-  height: 90%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
