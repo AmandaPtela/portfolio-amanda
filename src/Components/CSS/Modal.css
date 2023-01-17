@@ -1,13 +1,19 @@
-Box {
-  color: rgba(179, 179, 179, 0.623);
-}
 #links-modal {
   display: flex;
   flex-direction: column;
 }
 
+#modal-button {
+  width: 130px;
+  color:#e99ff8;
+}
+
+#modal-button:hover {
+  color:#f9f7fa;
+}
+
 a {
-  color: #5f0979;
+  color: rgb(131, 243, 164);
 }
 
 #btn-close-area {
@@ -25,6 +31,6 @@ a {
 
 #btn-close:hover {
   background-color: white;
-  color: rgb(59, 56, 56);
+  color: #5f0979;
   border-radius: 0.2cm;
 }

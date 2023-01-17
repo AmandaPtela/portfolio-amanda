@@ -8,8 +8,9 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 600,
-  bgcolor: 'black',
-  color: 'white',
+  bgcolor: '#5f0979',
+  fontWeight: 500,
+  color: '#f9f7fa',
   boxShadow: '2px 2px white',
   p: 4,
 };
@@ -21,7 +22,7 @@ export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Ver projeto</Button>
+      <Button id="modal-button" onClick={handleOpen}>Ver projeto</Button>
       <Modal
         open={open}
         onClose={handleClose}
