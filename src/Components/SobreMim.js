@@ -22,8 +22,8 @@ class SobreMim extends React.Component {
             </p>
           </div>
           <nav id="menu">
-            <Link to="/Projetos" className="links-nav">Linkedin</Link>
-            <Link className="links-nav">Fale comigo</Link>
+            <a href="https://www.linkedin.com/in/amandaptela/" target="_blank" className="links-nav">Linkedin</a>
+            <Link to="/contato" className="links-nav">Fale comigo</Link>
           </nav>
         </div>
       </section>

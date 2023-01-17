@@ -1,38 +1,58 @@
-#icone-redes {
-  height: 350px;
-  border-radius: 100%;
-  border-style: solid;
-  border-width: 0.2cm;
-  border-color: #327762;
-}
-
-#contato-ti{
-  font-weight: 400;
-  font-size: 30px;
-  margin: 0px;
-  line-height: 50px;
-  color:#b4c0bb;
-}
-
 #contato{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: fit-content;
+  height: 100vh;
   text-align: center;
-  margin-bottom: 85px;
-  padding: 15px;
-  width:90%;
+  width:100%;
 }
 
-#icones{
-  width: 60%;
-  text-align: center;
+#contatos {
+  width: 65%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contato-title {
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0px;
+  line-height: 50px;
+  color:white;
+}
+
+#links-contatos {
+  background-color: rgba(65, 64, 64, 0.288);
+  border-radius: 5ch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  height: 20%;
+  width: 100%;
 }
 
-#rede-2, #rede-4, #rede-3, #rede-1 {
-  width: 195px;
-  height: 55px;
+#rede-1, #rede-3  {
+  width: 100%;
+  height: 47px;
   border-radius: 8em;
+}
+
+#rede-2 {
+  width: 100%;
+  height: 47px;
+  border-radius: 8em;
+}
+
+#rede-4 {
+  width: 100%;
+  height: 47px;
+  border-radius: 8em;
+}
+
+#voltar-btn {
+  margin-top: 50px;
+  height: 80px;
 }

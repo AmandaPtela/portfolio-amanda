@@ -15,7 +15,7 @@
 #opa {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 90%;
 }
 
@@ -35,7 +35,6 @@
   justify-content: space-evenly;
   color: white;
   width: 320px;
-  padding: 5px;
   margin-bottom: 10px;
   height: 90px;
   border-right: solid 0.1ch #b4c0bb;
