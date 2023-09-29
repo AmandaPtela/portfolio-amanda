@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Content from './Content';
-import './CSS/Main.css';
+import '../CSS/Main.css';
 import SobreMim from './SobreMim';
 
 class Main extends React.Component {

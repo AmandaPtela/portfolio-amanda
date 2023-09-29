@@ -1,5 +1,5 @@
 import React from "react";
-import './CSS/Habilidades.css';
+import '../CSS/Habilidades.css';
 
 class CardProjetos extends React.Component {
   render() {

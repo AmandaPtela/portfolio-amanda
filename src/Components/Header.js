@@ -1,5 +1,5 @@
 import React from "react";
-import './CSS/Header.css';
+import '../CSS/Header.css';
 
 
 class Cabecalho extends React.Component {
@@ -9,7 +9,7 @@ class Cabecalho extends React.Component {
       <header id="cabecalho">
         <div id="texto-conteiner">
           <h1 id="header-texto">Boas vindas ao meu portfólio</h1>
-          <hr/>
+          <hr id="header-line"/>
           <h2 id="header-sub">Meu nome é Amanda Karoline</h2>
 {/*           <nav id="menu">
             <Link to="/Projetos" className="links-nav">Projetos</Link>

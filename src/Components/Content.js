@@ -1,5 +1,5 @@
 import React from "react";
-import './CSS/Content.css';
+import '../CSS/Content.css';
 import Projetos from "./Projetos";
 
 class Content extends React.Component {

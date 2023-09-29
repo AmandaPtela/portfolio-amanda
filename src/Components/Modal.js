@@ -1,5 +1,5 @@
 import React from 'react';
-import './CSS/Modal.css';
+import '../CSS/Modal.css';
 import {Modal, Typography, Button, Box} from '@mui/material';
 
 const style = {

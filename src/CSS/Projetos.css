@@ -1,5 +1,5 @@
 #proj-area-title {
-  color: white;
+  color: #d6d1d1d3;
   font-size: 25px;
 }
 
@@ -8,43 +8,50 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-lines {
+  width: 80%;
 }
 
 #opa {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 #proj-org {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  height: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
 }
 
 .projeto {
   display: flex;
-  background-color:black;
-  flex-direction: row;
+  background-color:#141414;
+  border: solid 0.1ch rgba(119, 107, 107, 0.527);
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  color: white;
+  justify-content: center;
   width: 320px;
   margin-bottom: 10px;
   height: 90px;
-  border-right: solid 0.1ch #b4c0bb;
-  border-bottom: solid 0.1ch #b4c0bb;
+  box-shadow: 1.5px 1.5px #d6d1d1d3;
   border-radius: 1ch;
 }
 
 .projeto:hover {
   transition: 0.3s;
   transform: scale(1.1);
+  color:#141414;
   background-color: #5f0979;
 }
 
@@ -58,7 +65,7 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: white;
+  color: #d6d1d1d3;
   font-size: 20px;
   text-align: left;
   width: 85%;

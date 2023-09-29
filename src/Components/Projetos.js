@@ -1,5 +1,5 @@
 import React from "react";
-import './CSS/Projetos.css';
+import '../CSS/Projetos.css';
 import BasicModal from "./Modal";
 import img1 from '../Images/img-deck-maker.png';
 import img from '../Images/lectures-node.png';
@@ -30,8 +30,9 @@ function Projetos() {
 
   return (
     <div className="geralzao-projetos">
-      <p id="proj-area-title">Projetos</p>
       <section id="opa">
+        <p id="proj-area-title">Projetos</p>
+        <hr className="projects-lines" />
           <article id="proj-org" >
             {projetos.map((projeto, index) => (
               <div key={index} className="projeto">
@@ -40,6 +41,7 @@ function Projetos() {
               </div>)
             )}
           </article>
+      <hr className="projects-lines" />
       </section>
     </div>
   )

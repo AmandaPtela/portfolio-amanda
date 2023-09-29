@@ -9,7 +9,7 @@
   height: 100vh;
 }
 
-hr {
+#header-line {
   animation-name: linha;
   animation-duration: 1s;
   animation-delay: 1s;

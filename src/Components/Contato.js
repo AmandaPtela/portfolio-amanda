@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './CSS/Contato.css';
+import '../CSS/Contato.css';
 import img from '../Images/img.png';
 
 class Contato extends React.Component {
