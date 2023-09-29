@@ -8,10 +8,10 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 600,
-  bgcolor: '#5f0979',
+  bgcolor: '#141414',
   fontWeight: 500,
   color: '#f9f7fa',
-  boxShadow: '2px 2px white',
+  boxShadow: '2px 2px #3f3e3e',
   p: 4,
 };
 
@@ -37,8 +37,8 @@ export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
             <img src={img} alt={title}/>
             <p>{desc}</p>
             <div id='links-modal'>
-              <span>Repositório: <a href={urlRepo}>{urlRepo}</a></span>
-              <span>Projeto: <a href={urlDeploy}>{urlDeploy}</a></span>
+              <span><a href={urlRepo}>Ir para GitHub</a></span>
+              <span><a href={urlDeploy}>Deploy</a></span>
             </div>
           </Typography>
         </Box>

@@ -1,3 +1,7 @@
+#modal-modal-description {
+  color: #d6d1d1d3;
+}
+
 #links-modal {
   display: flex;
   flex-direction: column;
@@ -9,7 +13,7 @@
 }
 
 a {
-  color: rgb(131, 243, 164);
+  color: #5f0979;
 }
 
 #btn-close-area {
@@ -21,12 +25,12 @@ a {
   background-color: transparent;
   border: none;
   outline: none;
-  color: rgb(255, 250, 250);
+  color: #3f3e3e;
   font-size: 20px;
 }
 
 #btn-close:hover {
-  background-color: white;
-  color: #5f0979;
+  background-color: #3f3e3e;
+  color: #d6d1d1d3;
   border-radius: 0.2cm;
 }
