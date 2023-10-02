@@ -1,14 +1,33 @@
-#all {
+@media screen and (max-width: 800px) {
+  #all {
   width: fit-content;
+  }
+  #app {
+    width: fit-content;
+  }
+  #conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+  }
 }
-#app {
+
+@media screen and (min-width: 800px) {
+  #all {
   width: fit-content;
-}
-#conteudo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+  }
+  #app {
+    width: fit-content;
+  }
+  #conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
 }

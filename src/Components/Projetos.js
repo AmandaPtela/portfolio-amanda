@@ -32,7 +32,6 @@ function Projetos() {
     <div className="geralzao-projetos">
       <section id="opa">
         <p id="proj-area-title">Projetos</p>
-        <hr className="projects-lines" />
           <article id="proj-org" >
             {projetos.map((projeto, index) => (
               <div key={index} className="projeto">
@@ -41,7 +40,6 @@ function Projetos() {
               </div>)
             )}
           </article>
-      <hr className="projects-lines" />
       </section>
     </div>
   )

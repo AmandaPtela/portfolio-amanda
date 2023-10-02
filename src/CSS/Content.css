@@ -1,6 +1,17 @@
-.conteudo {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 70%;
+@media screen and (max-width: 800px)  {
+  .conteudo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 800px)  {
+  .conteudo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 45%;
+  }
 }
