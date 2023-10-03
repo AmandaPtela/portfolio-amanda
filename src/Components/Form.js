@@ -5,7 +5,7 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
-import styles from '../CSS/Form.css';
+import '../CSS/Form.css';
 import { Box, FormHelperText } from '@mui/material';
 /* import { SMTPClient } from 'emailjs';
 
@@ -64,16 +64,15 @@ export default function FormDialog() {
                 Send me an Email
             </Button>
             <Dialog open={open} onClose={handleClose}>
-                <form method='get' action="mailto:mandaptela@gmail.com" style={{ width: '600px' }} >
+                <form method='get' action="mailto:mandaptela@gmail.com" style={ window.innerWidth < 800 ? { width: '400px', backgroundColor: 'whitesmoke' } : { width: '600px', backgroundColor: 'whitesmoke' }} >
                     <DialogTitle>
                         Contact by email</DialogTitle>
-                    <DialogContent id="dialogContent" dividers={false}>
+                    <DialogContent id="dialogContent">
                         <div>
                             <FormHelperText>
                                 Please enter your email address here
                             </FormHelperText>
                             <TextField
-                                email
                                 autoFocus
                                 margin="dense"
                                 id="name"
@@ -88,11 +87,10 @@ export default function FormDialog() {
                                 Please enter your message here
                             </FormHelperText>
                             <TextField
-                                message
                                 autoFocus
                                 margin="dense"
                                 id="name"
-                                label="message"
+                                label="Message"
                                 type="text"
                                 fullWidth
                                 variant="outlined"
@@ -102,8 +100,8 @@ export default function FormDialog() {
                         </div>
                     </DialogContent>
                     <DialogActions>
-                        <Button onClick={handleClose}>Cancel</Button>
-                        <Button type="submit" onClick={handleClose}>
+                        <Button /* style={ { color: '#5f0979' }} */ onClick={handleClose}>Cancel</Button>
+                        <Button /* style={ { color: '#5f0979' }} */ type="submit" onClick={handleClose}>
                             Send email
                         </Button>
                     </DialogActions>

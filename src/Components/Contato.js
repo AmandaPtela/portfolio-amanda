@@ -23,7 +23,7 @@ class Contato extends React.Component {
             </a>
             <FormDialog />
           </div>
-        <Link to="/"> <img id="voltar-btn" src={img} /></Link>
+        <Link to="/"> <img id="voltar-btn" alt="go-back-button" src={img} /></Link>
         </section>
       </div>
     )
