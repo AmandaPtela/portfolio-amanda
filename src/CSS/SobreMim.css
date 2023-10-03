@@ -18,7 +18,7 @@
     height: 100%;
     border: solid 0.1ch rgba(119, 107, 107, 0.527);
     border-radius: 1ch;
-    box-shadow: 3px 3px #3f3e3e;
+    box-shadow: 1.5px 1.5px #d6d1d1d3;
   }
 
   .area-texto-sobre {
@@ -129,7 +129,7 @@
     width: 65%;
     border: solid 0.1ch rgba(119, 107, 107, 0.527);
     border-radius: 1ch;
-    box-shadow: 3px 3px #3f3e3e;
+    box-shadow: 1.5px 1.5px #d6d1d1d3;
     margin-bottom: 30px;
   }
 
