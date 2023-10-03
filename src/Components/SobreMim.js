@@ -16,7 +16,7 @@ class SobreMim extends React.Component {
               </p>
               <hr className="about-line" />
               <nav id="menu">
-                <a href="https://www.linkedin.com/in/amandaptela/" target="_blank" className="links-nav">Linkedin</a>
+                <a href="https://www.linkedin.com/in/amandaptela/" target="_blank" rel="noopener noreferrer" className="links-nav">Linkedin</a>
                 <Link to="/contato" className="links-nav">Fale comigo</Link>
               </nav>
             </div>

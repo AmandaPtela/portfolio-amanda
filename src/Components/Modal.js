@@ -37,8 +37,8 @@ export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
             <img src={img} alt={title}/>
             <p>{desc}</p>
             <div id='links-modal'>
-              <span><a href={urlRepo}>Ir para GitHub</a></span>
-              <span><a href={urlDeploy}>Deploy</a></span>
+              <span><a href={urlRepo} target="_blank" rel="noopener noreferrer">Ir para GitHub</a></span>
+              <span><a href={urlDeploy} target="_blank" rel="noopener noreferrer">Deploy</a></span>
             </div>
           </Typography>
         </Box>
