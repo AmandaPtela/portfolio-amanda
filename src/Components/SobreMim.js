@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../CSS/SobreMim.css';
+import FormDialog from "./Form";
 
 class SobreMim extends React.Component {
   render() {
@@ -16,8 +17,10 @@ class SobreMim extends React.Component {
               </p>
               <hr className="about-line" />
               <nav id="menu">
-                <a href="https://www.linkedin.com/in/amandaptela/" target="_blank" rel="noopener noreferrer" className="links-nav">Linkedin</a>
-                <Link to="/contato" className="links-nav">Fale comigo</Link>
+                <div className="links-nav">
+                  <a className="link-about-button" href="https://github.com/AmandaPtela" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+                <FormDialog />
               </nav>
             </div>
           </div>

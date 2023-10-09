@@ -11,10 +11,6 @@ class Cabecalho extends React.Component {
           <h1 id="header-texto">Boas vindas ao meu portfólio</h1>
           <hr id="header-line"/>
           <h2 id="header-sub">Meu nome é Amanda Karoline</h2>
-{/*           <nav id="menu">
-            <Link to="/Projetos" className="links-nav">Projetos</Link>
-            <Link className="links-nav">Contato</Link>
-          </nav> */}
         </div>
       </header>
     )

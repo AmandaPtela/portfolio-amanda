@@ -1,104 +1,72 @@
 @media screen and (max-width: 800px) {
-  #contato{
+
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    background-color: #141414;
+    height: 40%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #dialogContent {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    width:100%;
+    height: 100%;
+    width: 88%;
   }
 
-  #contatos {
-    width: 65%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
 
-  #contato-title {
-    font-weight: 400;
-    font-size: 30px;
-    margin: 0px;
-    line-height: 50px;
-    color:#d6d1d1d3;
-  }
-
-  #links-contatos {
-    background-color: rgba(65, 64, 64, 0.288);
-    border-radius: 5ch;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 35%;
+  .links-modal {
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  #rede-1, #rede-2, #rede-3 {
+  #rede-1, #rede-2 {
     width: 90%;
-    height: 40px;
+    height: 50px;
     border-radius: 8em;
   }
 
-  #rede-4 {
+  #btn-close-area {
+    display: flex;
+    justify-content: right;
+  }
+  
+  #btn-close {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #3f3e3e;
+    font-size: 20px;
+  }
+  
+  #btn-close:hover {
+    background-color: #3f3e3e;
     color: #d6d1d1d3;
-    text-decoration: none;
-    animation-name: alert-email;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes alert-email {
-    from{
-        color: #d6d1d1d3;
-    }
-    to{
-        color: blueviolet;
-    }
-  }
-
-  #voltar-btn {
-    margin-top: 50px;
-    height: 80px;
+    border-radius: 0.2cm;
   }
 }
 
 @media screen and (min-width: 800px) {
-  #contato{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    width:100%;
-  }
 
-  #contatos {
-    width: 65%;
-    height: 90%;
+  #dialogContent {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-  }
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: #141414;
 
-  #contato-title {
-    font-weight: 400;
-    font-size: 30px;
-    margin: 0px;
-    line-height: 50px;
-    color:white;
   }
 
   #links-contatos {
-    background-color: rgba(65, 64, 64, 0.288);
     border-radius: 5ch;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 30%;
     width: 100%;
@@ -106,40 +74,37 @@
     max-height: 98px;
   }
 
-  #rede-1, #rede-2, #rede-3 {
-    width: 90%;
-    height: 40px;
-    border-radius: 8em;
-  }
-
-  #rede-4 {
-    color: #d6d1d1d3;
-    text-decoration: none;
-    font-size: 23px;
-    background-color: #5f0979;
-    border-radius: 8em;
-    width: 30%;
-    height: 40%;
+  .links-modal {
+    width: 80%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    animation-name: alert-email;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    align-items: center;
   }
 
-  @keyframes alert-email {
-    from{
-        color: #d6d1d1d3;
-    }
-    to{
-        color: #141414;
-    }
+  #rede-1, #rede-2 {
+    width: 90%;
+    height: 50px;
+    border-radius: 8em;
   }
 
-  #voltar-btn {
-    margin-top: 50px;
-    height: 80px;
+  #btn-close-area {
+    display: flex;
+    justify-content: right;
+    width: 100%;
   }
+  
+  #btn-close {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #3f3e3e;
+    font-size: 20px;
+  }
+  
+  #btn-close:hover {
+    background-color: #3f3e3e;
+    color: #d6d1d1d3;
+    border-radius: 0.2cm;
+  }
+
 }
