@@ -16,7 +16,6 @@
     width: 88%;
   }
 
-
   .links-modal {
     width: 80%;
     display: flex;
@@ -51,7 +50,6 @@
 }
 
 @media screen and (min-width: 800px) {
-
   #dialogContent {
     display: flex;
     flex-direction: column;
