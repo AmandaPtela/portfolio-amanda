@@ -1,9 +1,6 @@
 import React from "react";
 import '../CSS/Projetos.css';
 import BasicModal from "./Modal";
-import img1 from '../Images/img-deck-maker.png';
-import img from '../Images/lectures-node.png';
-
 
 function Projetos() {
   const projetos = [
@@ -11,12 +8,12 @@ function Projetos() {
       descricao: 'Este projeto é um construtor de baralho, onde o usuário consegue criar um baralho, adicionar e remover uma carta do baralho criado, visualizar todas as cartas que foram adicionadas ao baralho e filtrar as cartas do baralho',
       linkDeploy: "https://deck-maker-app.vercel.app/", 
       linkRepo: 'https://github.com/AmandaPtela/deck-maker', 
-      image: {img1} },
+      image: '/static/media/deck-maker-1.2a182428.png'},
     { nome:'WalletExp',
       descricao: 'Aplicação para anotação de gastos.',
       linkDeploy: 'https://walletexp-one.vercel.app/', 
       linkRepo: 'https://github.com/AmandaPtela/WalletExp',
-      image: {img} }]
+      image: '/static/media/img-walletexp.0db33c61.png'}]
 
   return (
     <div className="geralzao-projetos">
@@ -25,7 +22,7 @@ function Projetos() {
           <article id="proj-org" >
             {projetos.map((projeto, index) => (
               <div key={index} className="projeto">
-              <span className="proj-nome"><a href={projeto.link}>{projeto.nome}</a></span>
+              <span className="proj-nome">{projeto.nome}</span>
               {BasicModal(projeto.nome, projeto.descricao, projeto.linkDeploy, projeto.linkRepo, projeto.image)}
               </div>)
             )}

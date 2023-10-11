@@ -1,25 +1,24 @@
 import React from 'react';
 import '../CSS/Modal.css';
-import {Modal, Typography, Button, Box} from '@mui/material';
+import {Modal, Button, Box} from '@mui/material';
 
 const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 600,
+  width: '60%',
+  height: '85%',
   bgcolor: '#141414',
   fontWeight: 500,
   color: '#f9f7fa',
   boxShadow: '2px 2px #3f3e3e',
-  p: 4,
 };
 
-export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
+export default function BasicModal(title, desc, urlDeploy, urlRepo, image) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
   return (
     <div>
       <Button id="modal-button" onClick={handleOpen}>Ver projeto</Button>
@@ -27,20 +26,16 @@ export default function BasicModal(title, desc, urlDeploy, urlRepo, img) {
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
-          <div id="btn-close-area"><button id='btn-close' type='button' onClick={handleClose}>X</button></div>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            <img src={img} alt={title}/>
+        <Box sx={style} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', padding: '10px'}}>
+        <div id="btn-close-area"><button id='btn-close' type='button' onClick={handleClose}>X</button></div>
+        
+          <img height="80%" width="95%" src={image} alt={title}/>
+          <div id='links-modal'>
             <p>{desc}</p>
-            <div id='links-modal'>
-              <span><a href={urlRepo} target="_blank" rel="noopener noreferrer">Ir para GitHub</a></span>
-              <span><a href={urlDeploy} target="_blank" rel="noopener noreferrer">Deploy</a></span>
-            </div>
-          </Typography>
+            <span><a href={urlRepo} target="_blank" rel="noopener noreferrer">Clique para acessar o repositório do projeto</a></span>
+            <span><a href={urlDeploy} target="_blank" rel="noopener noreferrer">Clique para acessar o projeto</a></span>
+          </div>
         </Box>
       </Modal>
     </div>

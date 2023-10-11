@@ -85,6 +85,19 @@
     width: 100%;
   }
 
+  .link-about-button {
+    color: #b4c0bb;
+    text-decoration: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 0.875rem;
+    padding: 6px 8px;
+    font-weight: 50;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
   .links-nav {
     text-decoration: none;
     width: 160px;
