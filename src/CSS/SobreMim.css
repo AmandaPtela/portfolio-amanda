@@ -86,7 +86,7 @@
   }
 
   .link-about-button {
-    color: #b4c0bb;
+    color: #f9f7fa;
     text-decoration: none;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-size: 0.875rem;
@@ -104,12 +104,11 @@
     height: 40px;
     justify-content: center;
     align-items: center;
-    color: #b4c0bb;
   }
 
   .links-nav:hover {
     display: flex;
-    color: #b4c0bb;
+    color: #f9f7fa;
     text-decoration: none;
     background-color: #5f0979;
     border-radius: 1cm;
@@ -214,7 +213,7 @@
   }
 
   .link-about-button {
-    color: #b4c0bb;
+    color: #f9f7fa;
     text-decoration: none;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-size: 0.875rem;
@@ -236,7 +235,7 @@
 
   .links-nav:hover {
     display: flex;
-    color: #b4c0bb;
+    color: #f9f7fa;
     text-decoration: none;
     background-color: #5f0979;
     border-radius: 1cm;
