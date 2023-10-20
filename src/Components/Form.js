@@ -27,7 +27,7 @@ export default function FormDialog() {
     return (
         <Box className='links-nav'>
             <Button style={{ color: '#f9f7fa' }} onClick={handleClickOpen}>
-                Fale comigo
+                Contatos
             </Button>
             <Dialog open={open} onClose={handleClose} id='Dialog' sx={style}>
                 <DialogContent id="dialogContent">
