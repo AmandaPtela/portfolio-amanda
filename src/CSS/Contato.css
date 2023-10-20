@@ -1,19 +1,10 @@
 @media screen and (max-width: 800px) {
-
-  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-    background-color: #141414;
-    height: 40%;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #dialogContent {
+  #links-contatos {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     height: 100%;
-    width: 88%;
   }
 
   .links-modal {
@@ -50,26 +41,12 @@
 }
 
 @media screen and (min-width: 800px) {
-  #dialogContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    width: fit-content;
-    background-color: #141414;
-
-  }
-
   #links-contatos {
-    border-radius: 5ch;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 30%;
+    justify-content: center;
     width: 100%;
-    max-width: 850px;
-    max-height: 98px;
+    height: 100%;
   }
 
   .links-modal {

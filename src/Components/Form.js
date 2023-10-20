@@ -6,12 +6,15 @@ import '../CSS/Contato.css';
 import { Box } from '@mui/material';
 
 const style = {
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '80%',
+    height: 'fit-content',
     bgcolor: 'transparent',
     fontWeight: 500,
     color: '#f9f7fa',
-    boxShadow: '2px 2px #3f3e3e',
-    p: 4,
-};
+  };
 
 export default function FormDialog() {
     const [open, setOpen] = React.useState(false);
@@ -25,12 +28,12 @@ export default function FormDialog() {
     };
 
     return (
-        <Box className='links-nav'>
+        <Box>
             <Button style={{ color: '#f9f7fa' }} onClick={handleClickOpen}>
                 Contatos
             </Button>
-            <Dialog open={open} onClose={handleClose} id='Dialog' sx={style}>
-                <DialogContent id="dialogContent">
+            <Dialog open={open} onClose={handleClose} id='Dialog' style={ { width: '90%'}}>
+                <DialogContent style={ { backgroundColor: '#141414'}}>
                     <div id="btn-close-area"><button id='btn-close' type='button' onClick={handleClose}>X</button></div>
                     <div id="links-contatos">
                         <div className='links-modal'>
