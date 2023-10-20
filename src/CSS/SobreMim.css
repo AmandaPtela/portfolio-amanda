@@ -76,15 +76,19 @@
   }
 
   #menu {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
     height: 12%;
     width: 100%;
   }
 
-  #menu-button {
+  .links-nav {
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+  }
+
+  .menu-button {
     color: #f9f7fa;
     text-decoration: none;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
@@ -94,29 +98,13 @@
     line-height: 1.75;
     letter-spacing: 0.02857em;
     text-transform: uppercase;
-    width: 100%;
   }
 
-  .links-nav {
-    display: flex;
-    text-decoration: none;
-    width: 100%;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    font-size: 21px;
-  }
-
-  .links-nav:hover {
-    display: flex;
+  .menu-button:hover {
     color: #f9f7fa;
     text-decoration: none;
     background-color: #5f0979;
     border-radius: 1cm;
-    width: 160px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
     transition: 0.2s;
     transform: scale(1.1);
   }
@@ -204,16 +192,19 @@
   }
 
   #menu {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 21px;
     height: 12%;
     width: 100%;
   }
 
-  #menu-button {
+  .links-nav {
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+  }
+
+  .menu-button {
     color: #f9f7fa;
     text-decoration: none;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
@@ -223,27 +214,13 @@
     line-height: 1.75;
     letter-spacing: 0.02857em;
     text-transform: uppercase;
-    width: 100%;
   }
 
-  .links-nav {
-    width: 100%;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-
-  .links-nav:hover {
-    display: flex;
+  .menu-button:hover {
     color: #f9f7fa;
     text-decoration: none;
     background-color: #5f0979;
     border-radius: 1cm;
-    width: 160px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
     transition: 0.2s;
     transform: scale(1.1);
   }

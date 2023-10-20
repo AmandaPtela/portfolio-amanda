@@ -17,8 +17,8 @@ class SobreMim extends React.Component {
               <hr className="about-line" />
               <nav id="menu">
                 <div className="links-nav">
-                  <a id="menu-button" href="https://github.com/AmandaPtela" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <FormDialog />
+                  <a className="menu-button" href="https://github.com/AmandaPtela" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <span className="menu-button"><FormDialog /></span>
                 </div>
               </nav>
             </div>
