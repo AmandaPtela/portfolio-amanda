@@ -3,8 +3,15 @@
   flex-direction: column;
   align-items: space-around;
   width: 90%;
-  position: absolute;
-  top: 85%;
+  padding-bottom: 20px;
+}
+
+#links-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20%;
+  align-self: flex-end;
 }
 
 #modal-button {

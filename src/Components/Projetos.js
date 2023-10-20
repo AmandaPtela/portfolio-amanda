@@ -10,7 +10,7 @@ function Projetos() {
       linkRepo: 'https://github.com/AmandaPtela/deck-maker', 
       image: '/static/media/deck-maker-1.2a182428.png'},
     { nome:'WalletExp',
-      descricao: 'Aplicação para anotação de gastos.',
+      descricao: 'Aplicação para anotação de gastos onde o usuário consegue adicionar, remover e editar suas anotações.',
       linkDeploy: 'https://walletexp-one.vercel.app/', 
       linkRepo: 'https://github.com/AmandaPtela/WalletExp',
       image: '/static/media/img-walletexp.0db33c61.png'}]
