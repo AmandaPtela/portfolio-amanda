@@ -50,6 +50,7 @@
   .stacks-lines {
     width: 80%;
   }
+
   #space-shields {
     display: flex;
     flex-flow: row wrap;
