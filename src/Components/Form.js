@@ -1,20 +1,33 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogContent from '@mui/material/DialogContent';
 import '../CSS/Contato.css';
-import { Box } from '@mui/material';
+import { Box, Modal } from '@mui/material';
 
-const style = {
+const styleLarge = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: '80%',
     height: 'fit-content',
-    bgcolor: 'transparent',
+    bgcolor: '#141414',
     fontWeight: 500,
     color: '#f9f7fa',
-  };
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+};
+
+const styleSmall = {
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '70%',
+    height: 'fit-content',
+    bgcolor: '#141414',
+    fontWeight: 500,
+    color: '#f9f7fa',
+};
 
 export default function FormDialog() {
     const [open, setOpen] = React.useState(false);
@@ -28,13 +41,26 @@ export default function FormDialog() {
     };
 
     return (
-        <Box>
+        <div>
             <Button style={{ color: '#f9f7fa' }} onClick={handleClickOpen}>
                 Contatos
             </Button>
-            <Dialog open={open} onClose={handleClose} id='Dialog' style={ { width: '90%'}}>
-                <DialogContent style={ { backgroundColor: '#141414'}}>
-                    <div id="btn-close-area"><button id='btn-close' type='button' onClick={handleClose}>X</button></div>
+            <Modal open={open} onClose={handleClose} id='Dialog' sx={window.innerWidth < 800 ? styleSmall : styleLarge}>
+                <Box style={{
+                    backgroundColor: 'transparent',
+                    width: '100%',
+                    paddingBottom: '30px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                }}
+                >
+                    <div id="btn-close-area">
+                        <button id='btn-close' type='button' onClick={handleClose}>
+                            X
+                        </button>
+                    </div>
                     <div id="links-contatos">
                         <div className='links-modal'>
                             <a href="https://www.linkedin.com/in/amandaptela/" target="_blank" rel="noopener noreferrer" >
@@ -51,8 +77,8 @@ export default function FormDialog() {
                             </a>
                         </div>
                     </div>
-                </DialogContent>
-            </Dialog>
-        </Box>
+                </Box>
+            </Modal>
+        </div>
     );
 }

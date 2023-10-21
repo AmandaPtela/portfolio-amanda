@@ -3,26 +3,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
   }
 
   .links-modal {
-    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   #rede-1, #rede-2 {
-    width: 90%;
+    width: 100%;
     height: 50px;
     border-radius: 8em;
   }
 
   #btn-close-area {
     display: flex;
-    justify-content: right;
   }
   
   #btn-close {
@@ -31,12 +30,14 @@
     outline: none;
     color: #3f3e3e;
     font-size: 20px;
+    padding: 15px;
   }
   
   #btn-close:hover {
     background-color: #3f3e3e;
     color: #d6d1d1d3;
     border-radius: 0.2cm;
+
   }
 }
 
@@ -57,7 +58,7 @@
   }
 
   #rede-1, #rede-2 {
-    width: 90%;
+    width: 100%;
     height: 50px;
     border-radius: 8em;
   }
@@ -74,6 +75,7 @@
     outline: none;
     color: #3f3e3e;
     font-size: 20px;
+    padding: 15px;
   }
   
   #btn-close:hover {
